@@ -53,13 +53,7 @@ local property_blacklist = {
     'P5996' -- Category for films in this language
 }
 
-function valuesToKeys(array)
-	local result = {}
-	for _, v in pairs(array) do
-		result[v] = true
-	end
-	return result
-end
+function valuesToKeys(array)	local result = {}	for _, v in pairs(array) do		result[v] = true	end	return result end
 
 local p = {}
 
@@ -129,8 +123,7 @@ function p.databox(frame)
     local properties = mw.wikibase.orderProperties(item:getProperties())
     local property_blacklist_hash = valuesToKeys(property_blacklist)
     property_blacklist_hash['P31'] = true --Special property
-
-	local edit_message = mw.message.new('vector-view-edit'):plain()
+local edit_message = mw.message.new('vector-view-edit'):plain()
     for _, property in pairs(properties) do
         local datatype = item.claims[property][1].mainsnak.datatype
         if datatype ~= 'commonsMedia' and datatype ~= 'external-id' and datatype ~= 'quantity' and not property_blacklist_hash[property] and #item:getBestStatements(property) <= 5 then
@@ -141,7 +134,7 @@ function p.databox(frame)
                     :wikitext(lang:ucfirst(propertyValue.label)):done()
                 :tag('td')
                     :wikitext(frame:preprocess(propertyValue.value))
-                    :wikitext('&nbsp;[[File:OOjs UI icon edit-ltr.svg|' .. edit_message .. '|12px|baseline|class=noviewer|link=https://www.wikidata.org/wiki/' .. item.id .. '#' .. property .. ']]')
+                    :wikitext('&nbsp;[[ߞߐߕߐ߮:OOjs_UI_icon_edit-ltr.svg|link=Https://www.wikidata.org/wiki/'_.._item.id_.._'#'_.._property_.._'|baseline|class=noviewer|12x12px|' .. edit_message .. ']]')
         end
     end
      
