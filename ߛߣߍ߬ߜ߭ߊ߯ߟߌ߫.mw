@@ -1,6 +1,6 @@
 {{Databox}}
 <table border="1" cellpadding="2" cellspacing="0" align="left"width="290px">
-<caption><font size="+1">'''ߛߣߍ߬ߞߊߟߌ߫ ߞߊ߲ߓߍ߲'''</font></caption>
+<caption><span style="font-size:large;">'''ߛߣߍ߬ߞߊߟߌ߫ ߞߊ߲ߓߍ߲'''</span></caption>
 <tr>
 <td style="background:#efefef;" align="center" colspan="2">
 <table border="0" cellpadding="2" cellspacing="0">
@@ -16,9 +16,7 @@
 </tr>
 
 <tr>
-<td align="center" colspan="2" style=
-"border-bottom:3px solid gray;"><font size="-1">'''ߞߎ߲߬ߧߊ߬ߘߐ''': "'''ߡߌ߬ߙߌ߲߬ߘߌ߬ ߞߋߟߋ߲߫ ߸ ߟߊ߬ߢߌߣߌ߲߫ ߞߋߟߋ߲߫ ߸ ߘߍ߲߬ߞߣߍ߬ߦߊ߬ ߞߋߟߋ߲߫'''" <br>
-</font> </td>
+<td align="center" colspan="2" style="border-bottom:3px solid gray;"><span style="font-size:small;">'''ߞߎ߲߬ߧߊ߬ߘߐ''': "'''ߡߌ߬ߙߌ߲߬ߘߌ߬ ߞߋߟߋ߲߫ ߸ ߟߊ߬ߢߌߣߌ߲߫ ߞߋߟߋ߲߫ ߸ ߘߍ߲߬ߞߣߍ߬ߦߊ߬ ߞߋߟߋ߲߫'''" <br></span> </td>
 </tr>
 
 <tr>
